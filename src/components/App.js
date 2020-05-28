@@ -36,7 +36,7 @@ const App = () => {
 
                         <div className="column">
                             <div className="ui raised secondary yellow segment">
-                                <div className="ui yellow right ribbon label">Users</div>
+                                <div className="ui yellow right ribbon label">users</div>
                             </div>
 
                             <div className="ui vertical segment">
