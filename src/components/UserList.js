@@ -13,7 +13,8 @@ const UserList = () => {
                         <div className="ui small yellow header">{user.name}</div>
                         <div className="description">{user.email}</div>
                         <div className="description">{user.phone}</div>
-                        <a href={"http://"+user.website} target="_blank" rel="noopener noreferrer" className="description">{user.website}</a>
+                        <a href={"http://" + user.website} target="_blank" rel="noopener noreferrer"
+                           className="description">{user.website}</a>
                     </div>
                 </div>))
             }

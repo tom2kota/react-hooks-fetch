@@ -26,7 +26,7 @@ const App = () => {
 
                         <div className="column">
                             <div className="ui raised secondary teal segment">
-                                <a className="ui teal ribbon label">{resource}</a>
+                                <div className="ui teal ribbon label">{resource}</div>
                                 <span className="ui header big teal">Titles:</span>
                             </div>
                             <div className="ui vertical segment">
@@ -36,7 +36,7 @@ const App = () => {
 
                         <div className="column">
                             <div className="ui raised secondary yellow segment">
-                                <a className="ui yellow right ribbon label">Users</a>
+                                <div className="ui yellow right ribbon label">Users</div>
                             </div>
 
                             <div className="ui vertical segment">

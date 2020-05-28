@@ -9,7 +9,7 @@ const ResourceList = ({resource}) => {
                 <div key={record.id} className="item">
                     <i className="terminal top aligned blue icon"/>
                     <div className="content">
-                            <a className="ui big header">{record.title}</a>
+                            <div className="ui big header">{record.title}</div>
                         <div className="description">{record.body || record.completed.toString()}</div>
                     </div>
                 </div>))
